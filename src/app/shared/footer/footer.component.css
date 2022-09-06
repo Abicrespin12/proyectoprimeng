@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
+.social-icons {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icon {
+    color: #fff;
+}
+
+ul.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    border-radius: 10%;
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #3d5b99;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.card-block .btn-outline-primary {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.card {
+    margin: 20px 0;
+}
+
+.card-container {
+    perspective: 700px;
+}
+
+.card-flip {
+    position: relative;
+    width: 100%;
+    transform-style: preserve-3d;
+    height: 100%;
+    transition: all 0.5s ease-out;
+    background: white;
+    background-color: #ca885c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #5c3c2c;
+    font-family: 'calibri';
+    font-size: 18px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.card-flip .front {
+    position: relative;
+    z-index: 1;
+}
+
+.card-flip .back {
+    position: relative;
+    z-index: 0;
+    transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+    transform: rotateY(180deg);
+}
+.logoA{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.logoOriginal{
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+}
+.card-block {
+    text-align: center;
+    align-content: center;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.fa-instagram {
+    border-radius: 10%;
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #953499;
+    margin-left: 5px;
+}
+
+.fa-instagram:hover {
+    background-color: #953499;
+}
+
+.fa-spotify:hover {
+    background-color: #81b71a;
+}
+
+.fa-spotify {
+    border-radius: 10%;
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #81b71a;
+}
+
+.fa-youtube {
+    border-radius: 10%;
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #e64a41;
+}
+
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+.controls {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #000;
+    font-family: 'medieval';
+    font-size: 18px;
+    border: 1px solid #673ab7;
+}
+.controls:hover{
+    border: 1px solid #673ab7 !important;
+}
+.btn{
+    cursor: pointer;
+  text-decoration: none;
+  font-style: normal;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #673ab7;
+  color: #673ab7 !important;
+  box-shadow: 0 0.05em 0.1em rgba(0, 0, 0, .25);
+  margin-left:85%;
+}
+.btn:hover{
+    transition: .5s;
+  background-color: #673ab7;
+  border: 1px solid #673ab7;
+  color: #fff !important;
+  text-decoration: none;
+
+}
